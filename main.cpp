@@ -9,13 +9,13 @@
 
 
 #define CSI_K_OBJECT        "transAllData"
-#define CSI_K_OBJECT_DESC   "È«Êı¾İ×ª·¢"
+#define CSI_K_OBJECT_DESC   "å…¨æ•°æ®è½¬å‘"
 #define CSI_K_OBJECT_USER   "transAllData"
 
 
-//#ifdef WIN32
-//#pragma comment(linker, "/subsystem:windows /entry:mainCRTStartup")
-//#endif
+#ifdef WIN32
+#pragma comment(linker, "/subsystem:windows /entry:mainCRTStartup")
+#endif
 
 
 MSG_ID_T 
@@ -47,7 +47,7 @@ int main(int argc, char *argv[])
 	char *szHome = getenv("SSIP_ROOT");
 	if ((szHome == NULL) || (strlen(szHome) == 0))
 	{
-		printf("ÇëÉèÖÃSSIP_ROOT»·¾³±äÁ¿\n");
+		printf("è¯·è®¾ç½®SSIP_ROOTç¯å¢ƒå˜é‡\n");
 		ICASCOLog::info("transDataIom:main:stop()----stop is completed");
 
 		return -1;
