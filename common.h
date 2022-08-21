@@ -2,6 +2,8 @@
 #define __COMMON_H_
 
 
+//test1
+
 enum CSV_TABLE_TYPE
 {
 	DI_MODBUS_01_FUNC ,
