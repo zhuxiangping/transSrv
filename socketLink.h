@@ -11,7 +11,7 @@ struct STUTIME
 	Mce::ushort   timeMsec;
 };
 
-
+//link2
 
 class clsModbusLink : public Mce_net::TCPServerConnection
 {
