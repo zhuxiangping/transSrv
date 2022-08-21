@@ -214,3 +214,5 @@ struct strTb104Analog
 };
 
 #endif // __COMMON_H_
+
+//test2
